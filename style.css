@@ -1,0 +1,7 @@
+* {
+  background-color: brown;
+}
+.contactdetails {
+  display: flex;
+  max-width: 80vw;
+}
