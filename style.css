@@ -1,7 +1,70 @@
 * {
-  background-color: brown;
+  background-color: lightseagreen;
 }
-.contactdetails {
+.contact-details {
   display: flex;
+  flex-direction: column;
   max-width: 80vw;
+  border: 3px solid black;
+  padding: 3px;
+  margin: 3px;
+}
+.actual-details {
+  display: flex;
+  text-decoration: black;
+  align-content: left;
+  padding: 5px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.address {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+h3 {
+  top: 5px;
+  text-justify: center;
+  text-align: center;
+  position: sticky;
+  text-decoration: underline;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: black;
+  color: white;
+  border: 3px solid blue;
+  width: 100vw;
+  margin: 0px;
+  text-align: center;
+}
+.right-side-details {
+  display: flex;
+  text-align: right;
+  padding: 5px;
+  position: sticky;
+  right: 0px;
+  width: 400px;
+}
+address {
+  text-align: left;
+}
+p {
+  display: flex;
+  text-align: right;
+  position: relative;
+  right: 0px;
+  flex-direction: column;
+  align-items: flex-end;
 }
