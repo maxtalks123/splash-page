@@ -1,9 +1,12 @@
 * {
-  background-color: lightseagreen;
+  background-color: #20b2aa;
+  box-sizing: border-box;
+  margin: 0px;
 }
 .contact-details {
   display: flex;
   flex-direction: column;
+  align-items: center;
   max-width: 80vw;
   border: 3px solid black;
   padding: 3px;
@@ -11,9 +14,12 @@
 }
 .actual-details {
   display: flex;
+  flex-direction: row;
   text-decoration: black;
   align-content: left;
+  align-items: center;
   padding: 5px;
+  width: 100%;
 }
 h1 {
   display: flex;
@@ -51,20 +57,10 @@ footer {
 }
 .right-side-details {
   display: flex;
-  text-align: right;
-  padding: 5px;
+  flex-direction: column;
   position: sticky;
-  right: 0px;
   width: 400px;
 }
 address {
   text-align: left;
-}
-p {
-  display: flex;
-  text-align: right;
-  position: relative;
-  right: 0px;
-  flex-direction: column;
-  align-items: flex-end;
 }
